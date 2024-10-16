@@ -1,0 +1,7 @@
+&i2c0 {
+    pro_micro_i2c: i2c@40003000 {
+        compatible = "atmel,atmega32u4-twi";
+        status = "okay";
+        // Configuración adicional específica del ProMicro C
+    };
+};
